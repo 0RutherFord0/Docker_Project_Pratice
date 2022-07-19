@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 require("./initDB")();
 
 app.get("/", (req, res, next) => {
-  res.json({ message: "Docker is working broo - Aditya Tawade" });
+  res.json({ message: "Docker is working broo - iConnect" });
 });
 
 const ProductRoute = require("./Routes/Product.route");
